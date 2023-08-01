@@ -50,8 +50,13 @@ section {
   margin-left: 7px;
 }
 
-p {
+.content {
   display: none;
+}
+
+.active {
+  display: block;
+  height: 150px;
 }
 
 * {
