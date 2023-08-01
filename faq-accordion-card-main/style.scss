@@ -1,0 +1,20 @@
+$first: #af67e9;
+$second:  #6565e7;
+
+@import './main-content';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, $first, $second);
+    position: relative;
+}

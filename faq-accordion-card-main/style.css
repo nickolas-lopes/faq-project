@@ -1,0 +1,74 @@
+main {
+  background-color: #fff;
+  width: 300px;
+  height: 450px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.woman {
+  position: absolute;
+  bottom: 90%;
+  height: 140px;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h5 {
+  padding: 15px;
+  font-size: 0.8rem;
+  padding-left: 5px;
+  color: rgb(99, 99, 99);
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.arrow {
+  height: 10px;
+  margin-left: 7px;
+}
+
+p {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans";
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #af67e9, #6565e7);
+  position: relative;
+}
+
+/*# sourceMappingURL=style.css.map */
