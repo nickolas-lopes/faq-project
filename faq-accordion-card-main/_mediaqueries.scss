@@ -1,0 +1,27 @@
+@media screen and (min-width:1200px) {
+    main{
+        width: 800px;
+        height: 500px;
+        display: flex;
+        align-items: flex-end;
+        padding: 15px;
+        position: relative;
+    }
+    h5{
+        font-size: 1.1rem;
+        margin-right: 60px
+    }
+    p{
+        font-size: 1rem;
+        margin: 0;
+        width: 300px;
+    }
+    .woman{
+        display: none;
+    }
+    .woman-desktop{
+        display: block;
+        position: absolute;
+        right: 60%;
+    }
+}

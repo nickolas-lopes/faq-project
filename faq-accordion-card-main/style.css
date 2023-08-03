@@ -1,19 +1,23 @@
 main {
   background-color: #fff;
-  width: 300px;
+  width: 350px;
   height: 550px;
   padding: 15px;
+  padding-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
   border-radius: 15px;
-  margin-top: 100px;
 }
 
 h1 {
   text-align: center;
+}
+
+.woman-desktop {
+  display: none;
 }
 
 .woman {
@@ -30,20 +34,20 @@ h1 {
 
 h5 {
   padding: 15px;
-  font-size: 0.8rem;
-  padding-left: 5px;
-  color: rgb(99, 99, 99);
+  font-size: 1rem;
+  color: #000000;
   font-weight: 300;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  cursor: pointer;
+  justify-content: center;
+  position: relative;
 }
 
 .arrow {
@@ -55,10 +59,51 @@ section {
   display: none;
 }
 
-.active {
+p {
+  font-size: 0.8rem;
+  color: rgb(114, 113, 113);
+  text-align: left;
+}
+
+.show, section {
   display: block;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
+
+.weigth {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    position: relative;
+  }
+  h5 {
+    font-size: 1.1rem;
+    margin-right: 60px;
+  }
+  p {
+    font-size: 1rem;
+    margin: 0;
+    width: 300px;
+  }
+  .woman {
+    display: none;
+  }
+  .woman-desktop {
+    display: block;
+    position: absolute;
+    right: 60%;
+  }
+}
 * {
   margin: 0;
   padding: 0;

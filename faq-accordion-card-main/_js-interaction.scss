@@ -1,4 +1,10 @@
-// .active{
-//     display: block;
-//     // height: 150px;
-// }
+.show, section{
+    display: block;
+    
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.weigth{
+    font-weight: 600;
+}

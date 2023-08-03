@@ -1,17 +1,11 @@
-const questions = document.querySelectorAll('section');
-const texts = document.querySelectorAll('p')
-for(let i = 0; i < questions.length; i++){
-<<<<<<< HEAD
-    questions[i].addEventListener('click', function(){
-       for(let j = 0; j < texts.length-(texts.length-2); j++){
-        
-       }
-=======
-    questions[i].addEventListener('click', function (){
-        texts.forEach(text => {
-           text.classList.toggle('content')
-        }
->>>>>>> a85ade1c0a698188c03e0d43326497a836394f2f
-    })
-}
-
+const sections = document.querySelectorAll('.faq section');
+sections.forEach(section => {
+    const arrow = section.querySelector('.arrow');
+    const content = section.querySelector('.content');
+    const questions = section.querySelector('h5');
+    section.addEventListener('click', () => {
+        content.classList.toggle('show');
+        arrow.classList.toggle('rotate');
+        questions.classList.toggle('weigth');
+    });
+});
