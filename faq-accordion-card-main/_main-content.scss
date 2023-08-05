@@ -26,6 +26,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 h5{
     padding: 15px;
@@ -42,7 +43,6 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    position: relative;
 }
 .arrow{
     height: 10px;
